@@ -1,0 +1,34 @@
+{
+  "_comment": "复制本文件为 config.json，填入你的配置。config.json 不会上传 GitHub。",
+
+  "wechat": {
+    "appid": "YOUR_WECHAT_APPID",
+    "appsecret": "YOUR_WECHAT_APPSECRET",
+    "account_id": "YOUR_GH_ID",
+    "author": "YOUR_AUTHOR_NAME",
+    "default_thumb_media_id": "YOUR_MEDIA_ID"
+  },
+
+  "deepseek": {
+    "api_key": "YOUR_DEEPSEEK_API_KEY",
+    "base_url": "https://api.deepseek.com"
+  },
+
+  "paths": {
+    "_comment_mac": "Mac 路径示例：/Users/yourname/Desktop/公众号文章/",
+    "_comment_win": "Windows 路径示例：C:\\Users\\yourname\\Desktop\\公众号文章\\",
+    "article_output_dir": "YOUR_LOCAL_OUTPUT_PATH",
+    "memory_dir": "YOUR_LOCAL_MEMORY_PATH"
+  },
+
+  "schedule": {
+    "articles_per_day": 1,
+    "topic_rotation_weeks": 4,
+    "topic_schedule": {
+      "week1": "新闻快讯",
+      "week2": "深度解读",
+      "week3": "实用工具",
+      "week4": "故事案例"
+    }
+  }
+}
