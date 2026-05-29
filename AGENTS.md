@@ -8,10 +8,20 @@
 
 - `SOUL.md` — 你的定位和能力
 - `IDENTITY.md` — 你的身份信息
+- `USER.md` — 用户信息与自定义
+- `TOOLS.md` — 工具链级级配置
+- `MEMORY.md` — 长期记忆（主会话专属，勿外泄）
+- `memory/` — 日常记忆（已排除 .gitignore）
 - `workflow/` — 工作流模块目录
 - `prompts/` — Prompt 模板目录
 - `docs/` — 文档目录
 - `config/` — 配置目录
+
+## GitHub 同步
+
+需要同步到 GitHub 时，在本仓库根目录触发：`cd pm-agent; git sync` 或参考基础设置手动执行。
+
+**不传：Token / 密钥 / 任务记录 / HTML 原型**
 
 ## 工作原则
 
